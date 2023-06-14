@@ -115,7 +115,7 @@
 
 #define USBD_IRQHandler     OTGFS1_IRQHandler
 #define USB_BASE (0x50000000UL)
-//#define USB_NUM_BIDIR_ENDPOINTS 4
+#define USB_NUM_BIDIR_ENDPOINTS 8
 
 /* ================ USB Host Port Configuration ==================*/
 
